@@ -1,0 +1,7 @@
+.header {
+  height: 15%;
+  background: white;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-around;
+}
