@@ -5,4 +5,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #ff3e79;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
