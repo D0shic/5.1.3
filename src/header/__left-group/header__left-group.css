@@ -1,0 +1,8 @@
+.header__left-group {
+  display: flex;
+  align-items: center;
+}
+
+.header__left-group > :not(:last-child) {
+  margin-right: 16px;
+}

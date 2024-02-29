@@ -1,0 +1,10 @@
+.additional-links__link {
+  display: none;
+  font-size: 0px;
+}
+
+@media screen and (width > 1120px) {
+  .additional-links a {
+    font-size: 1rem;
+  }
+}

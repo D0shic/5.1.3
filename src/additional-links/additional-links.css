@@ -1,0 +1,9 @@
+.additional-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.additional-links li:not(:last-child) {
+  margin-right: 16px;
+}
