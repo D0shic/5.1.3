@@ -1,0 +1,11 @@
+.link-carousel__link{
+    padding: 8px 9px;
+    display: block;
+    border-radius: 6px;
+    text-decoration: none;
+    color:#7E7E82;
+}
+
+.link-carousel__link:active{
+    border: 2px solid #B8FFEC;
+}
