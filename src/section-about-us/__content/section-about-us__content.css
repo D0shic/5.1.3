@@ -1,0 +1,11 @@
+@media screen and (width > 768px) {
+  .section-about-us__content {
+    margin-right: 48px;
+  }
+}
+
+@media screen and (width > 1120px) {
+  .section-about-us__content {
+    margin-right: 36px;
+  }
+}

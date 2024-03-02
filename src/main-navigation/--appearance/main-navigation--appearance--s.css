@@ -1,3 +1,5 @@
-.main-navigation--appearance--s {
-  display: inline;
+@media screen and (width < 768px) {
+  .main-navigation--appearance--s {
+    display: inline;
+  }
 }

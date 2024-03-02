@@ -2,21 +2,21 @@
   font-family: 'TT Lakes Regular';
   src: url('TTLakes-Regular.eot');
   src: url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-  url('TTLakes-Regular.woff') format('woff'),
-  url('TTLakes-Regular.ttf') format('truetype');
+    url('/public/fonts/TTLakes-Regular.woff') format('woff'),
+    url('/public/fonts/TTLakes-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
-  @font-face {
-    font-family: 'TT Lakes Bold';
-    src: url('TTLakes-Bold.eot');
-    src: url('TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-    url('TTLakes-Bold.woff') format('woff'),
-    url('TTLakes-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('TTLakes-Bold.eot');
+  src: url('TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/TTLakes-Bold.woff') format('woff'),
+    url('/public/fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   box-sizing: border-box;
@@ -30,5 +30,10 @@ html {
 }
 body {
   background: #f8f8f8;
-  font-family: "TT Lakes Regular";
+  font-family: 'TT Lakes Regular';
+  font-size: 16px;
+  max-width: 1120px;
+  min-width: 320px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }

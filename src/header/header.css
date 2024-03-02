@@ -1,9 +1,19 @@
 .header {
-  height: 15%;
   background: white;
   padding: 24px 16px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #d9fff5;
   align-items: center;
+}
+
+@media screen and (width > 1120px) {
+  .header {
+    background-color: transparent;
+    border: none;
+    margin-bottom: -70px;
+    margin-top: 42px;
+    position: relative;
+    z-index: 90;
+  }
 }

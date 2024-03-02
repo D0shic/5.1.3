@@ -1,5 +1,21 @@
-.main{
-    padding: 24px 16px;
+.main {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (1120px > width > 768px) {
+  .main {
+    padding: 24px 24px;
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (width > 1120px) {
+  .main {
+    padding: 8px 32px;
+    display: flex;
+    flex-direction: column;
+  }
 }

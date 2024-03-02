@@ -1,0 +1,21 @@
+@media screen and (width < 768px) {
+  .section-about-us__img {
+    width: 280px;
+    height: auto;
+    align-self: center;
+  }
+}
+
+@media screen and (width < 1120px) {
+  .section-about-us__img {
+    width: 360px;
+    height: auto;
+  }
+}
+
+@media screen and (width > 1120px) {
+  .section-about-us__img {
+    width: 561px;
+    height: auto;
+  }
+}

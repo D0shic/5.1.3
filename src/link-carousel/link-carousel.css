@@ -1,5 +1,16 @@
-.link-carousel{
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
+.link-carousel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (width < 1120px) {
+  .link-carousel {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-color: #a9a9a974 transparent;
+    scrollbar-width: thin;
+  }
 }

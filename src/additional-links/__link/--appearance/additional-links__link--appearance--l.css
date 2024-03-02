@@ -1,0 +1,12 @@
+@media screen and (width > 1120px) {
+  .additional-links__link--appearance--l {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .additional-links__link--appearance--l::after {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9px;
+  }
+}

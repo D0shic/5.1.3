@@ -1,10 +1,10 @@
-.section-about-us{
-    display: flex;
-    flex-direction: column;
+.section-about-us {
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and(width > 768px) {
-    .section-about-us{
-        flex-direction: row;
-    }    
+@media screen and (width > 768px) {
+  .section-about-us {
+    flex-direction: row;
+  }
 }
