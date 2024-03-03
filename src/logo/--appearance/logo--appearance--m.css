@@ -1,4 +1,4 @@
-@media screen and (min-width = 768px) and (width < 1120px) {
+@media screen and (min-width = 768px) {
   .logo--appearance--m {
     display: inline;
   }
