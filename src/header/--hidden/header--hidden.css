@@ -1,0 +1,10 @@
+@media screen and (min-width = 1119px) {
+  .header--hidden {
+    background-color: transparent;
+    border: none;
+    margin-bottom: -70px;
+    margin-top: 42px;
+    position: relative;
+    z-index: 90;
+  }
+}
