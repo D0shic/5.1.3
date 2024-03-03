@@ -1,4 +1,4 @@
-@media screen and (width >= 768px) and (width < 1120px) {
+@media screen and (width > 767px) {
   .divider--appearance--m {
     display: block;
   }

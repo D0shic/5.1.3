@@ -8,7 +8,7 @@
   padding-left: 12px;
 }
 
-@media screen and (min-width = 768px) and (width < 1120px) {
+@media screen and (width > 767px) {
   .main__heading {
     margin-bottom: 24px;
     margin-left: -20px;
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (width >= 1120px) {
+@media screen and (width > 1119px) {
   .main__heading {
     margin-bottom: 8px;
     margin-left: -28px;
