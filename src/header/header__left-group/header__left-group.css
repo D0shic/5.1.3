@@ -3,6 +3,6 @@
   align-items: center;
 }
 
-/* .header__left-group > :not(:last-child) {
+.header__left-group > .main-navigation::after {
   margin-right: 16px;
-} */
+}
