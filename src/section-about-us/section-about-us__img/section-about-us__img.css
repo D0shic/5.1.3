@@ -1,6 +1,6 @@
 @media screen and (width < 768px) {
   .section-about-us__img {
-    width: 280px;
+    width: calc(100vw - 32px);
     height: auto;
     align-self: center;
   }
