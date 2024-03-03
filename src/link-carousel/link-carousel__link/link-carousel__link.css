@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #7e7e82;
   text-wrap: nowrap;
+  font-size: 16px;
 }
 
 .link-carousel__link[active] {
