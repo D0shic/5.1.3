@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-@media screen and (width > 767px){
+@media screen and (1120px > width > 767px) {
   .main {
     padding: 24px 24px;
     display: flex;
