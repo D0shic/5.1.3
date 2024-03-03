@@ -1,4 +1,4 @@
-@media screen and (min-width = 768px) and (width < 1120px) {
+@media screen and ( 768px <= width < 1120px) {
   .additional-links__link--appearance--m {
     display: block;
   }

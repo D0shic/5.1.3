@@ -6,14 +6,3 @@
   border-bottom: 1px solid #d9fff5;
   align-items: center;
 }
-
-@media screen and (width > 1119px) {
-  .header {
-    background-color: transparent;
-    border: none;
-    margin-bottom: -70px;
-    margin-top: 42px;
-    position: relative;
-    z-index: 90;
-  }
-}
