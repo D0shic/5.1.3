@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-@media screen and (width >= 767px) {
+@media screen and (width > 767px) {
   .section-about-us {
     flex-direction: row;
   }
