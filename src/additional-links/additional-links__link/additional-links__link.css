@@ -1,8 +1,9 @@
 .additional-links__link {
   display: none;
   font-size: 0px;
-}
-
-.additional-links__link::after {
   margin-right: 16px;
 }
+
+/* .additional-links__link::after {
+  
+} */
