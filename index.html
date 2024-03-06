@@ -119,6 +119,20 @@
     />
     <link rel="stylesheet" href="../3.1.4/src/header/header__main-navigation/header__main-navigation.css">
     <link rel="stylesheet" href="../3.1.4/src/main/main__link-carousel/main__link-carousel.css">
+    <link rel="stylesheet" href="../3.1.4/src/mobile-menu/mobile-menu.css">
+    <link rel="stylesheet" href="../3.1.4/src/aside-header/aside-header.css">
+    <link rel="stylesheet" href="../3.1.4/src/aside-header/aside-header__left-group/aside-header__left-group.css">
+    <link rel="stylesheet" href="../3.1.4/src/mobile-menu/mobile-menu__close-btn/mobile-menu__close-btn.css">
+    <link rel="stylesheet" href="../3.1.4/src/search-input/search-input.css">
+    <link rel="stylesheet" href="../3.1.4/src/mobile-menu/mobile-menu__link-list/mobile-menu__link-list.css">
+    <link rel="stylesheet" href="../3.1.4/src/aside-link-list/aside-link-list.css">
+    <link rel="stylesheet" href="../3.1.4/src/aside-link-list/aside-link-list__item/aside-link-list__item.css">
+    <link rel="stylesheet" href="../3.1.4/src/aside-link-list/aside-link-list__link/aside-link-list__link.css">
+    <link rel="stylesheet" href="../3.1.4/src/mobile-menu/mobile-menu__additional-links/mobile-menu__additional-links.css">
+    <link rel="stylesheet" href="../3.1.4/src/mobile-menu/mobile-menu__contacts/mobile-menu__contacts.css">
+    <link rel="stylesheet" href="../3.1.4/src/contacts/contacts.css">
+    <link rel="stylesheet" href="../3.1.4/src/contacts/contacts__email/contacts__email.css">
+    <link rel="stylesheet" href="../3.1.4/src/contacts/contacts__tel/contacts__tel.css">
   </head>
   <body>
     <header class="header header--hidden">
@@ -176,6 +190,63 @@
         </li>
       </ul>
     </header>
+    <aside class="mobile-menu">
+      <header class="mobile-menu__header aside-header">
+        <div class="aside-header__left-group">
+          <button class="link mobile-menu__close-btn"></button>
+          <img
+            src="./public/images/Group.svg"
+            alt="Grey CPS letters logo"
+            class="logo header__logo logo--appearance--s logo--appearance--m"
+          />
+        </div>
+        <input type="search" class="link search-input mobile-menu__search-input">
+      </header>
+      <ul class="mobile-menu__link-list aside-link-list">
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link" active>Ремонт техники</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Услуги и сервисы</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Корпоративным клиентам</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Продавцам техники</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Партнерам</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Производителям</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Наши сервисные центры</a></li>
+        <li class="aside-link-list__item"><a href="" class="aside-link-list__link">Контакты</a></li>
+      </ul>
+      <footer class="mobile-menu__footer">
+        <ul class="additional-links mobile-menu__additional-links">
+          <li class="additional-links__item">
+            <a
+              href=""
+              class="link additional-links__link call-link"
+              >Позвонить</a
+            >
+          </li>
+          <li class="additional-links__item">
+            <a
+              href=""
+              class="link additional-links__link chat-link"
+              >Написать</a
+            >
+          </li>
+          <li class="additional-links__item">
+            <a
+              href=""
+              class="link additional-links__link account-link"
+              >Аккаунт</a
+            >
+          </li>
+        </ul> 
+        <div class="contacts mobile-menu__contacts">
+          <span class="contacts__email">mail@cps.com</span>
+          <span class="contacts__tel">8 800 890 8900</span>
+        </div>
+        <form action="" class="language-change-form mobile-menu__language-change-form">
+          <label class="language-change-form__label">RU<input type="checkbox" class="language-change-form__checkbox"></label>
+          <label class="language-change-form__label">EN<input type="checkbox" class="language-change-form__checkbox"></label>
+          <label class="language-change-form__label">CH<input type="checkbox" class="language-change-form__checkbox"></label>
+        </form>
+      </footer>
+    </aside>
     <main class="main">
       <h1 class="main__heading">Услуги и сервисы</h1>
       <ul class="link-carousel main_link-carousel">

@@ -1,0 +1,8 @@
+.aside-header__left-group{
+    display: flex;
+    align-items: center;
+}
+
+.aside-header__left-group > .mobile-menu__close-btn::after {
+    margin-right: 16px;
+  }
