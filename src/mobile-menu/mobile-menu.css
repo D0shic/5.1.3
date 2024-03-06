@@ -10,4 +10,6 @@
   padding: 24px 23px 32px 23px;
   overflow-y: scroll;
   z-index: 99;
+  height: 100vh;
+  scrollbar-width: thin;
 }

@@ -22,11 +22,11 @@
   font-family: 'TT Lakes Medium';
   src: url('TTLakes-Medium.eot');
   src: url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-  url('../public/fonts/TTLakes-Medium.woff') format('woff'),
-  url('../public/fonts/TTLakes-Medium.ttf') format('truetype');
+    url('../public/fonts/TTLakes-Medium.woff') format('woff'),
+    url('../public/fonts/TTLakes-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
 html {
   box-sizing: border-box;
@@ -46,4 +46,5 @@ body {
   min-width: 320px;
   margin: 0 auto;
   overflow-x: hidden;
+  color: #1b1c21;
 }

@@ -1,22 +1,22 @@
-.aside-link-list__link{
-    text-decoration: none;
-    color: #1B1C21;
-    font-family: 'TT Lakes Medium';
-    position: relative;
+.aside-link-list__link {
+  text-decoration: none;
+  font-family: 'TT Lakes Medium';
+  position: relative;
+  color: #1b1c21;
 }
 
-.aside-link-list__link[active]{
-    color: #7E7E82;
+.aside-link-list__link[active] {
+  color: #7e7e82;
 }
 
-.aside-link-list__link[active]::before{
-    content: '';
-    display: block;
-    width: 4px;
-    height: 32px;
-    background-color: #41F6D7;
-    border-radius: 0 15px 15px 0;
-    position: absolute;
-    left: -23px;
-    top: -6px;
+.aside-link-list__link[active]::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 32px;
+  background-color: #41f6d7;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  left: -23px;
+  top: -6px;
 }
