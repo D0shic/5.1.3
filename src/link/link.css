@@ -14,4 +14,10 @@
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  transition: background-color 0.3s ease-in-out 0s;
+}
+
+.link:hover::after {
+  background-color: #41f6d7;
+  transition: background-color 0.1s ease-in-out 0s;
 }

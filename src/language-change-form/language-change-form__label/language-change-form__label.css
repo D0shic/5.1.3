@@ -1,3 +1,9 @@
 .language-change-form__label[active] {
   color: #7e7e82;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.language-change-form__label:hover {
+  color: #ff3e79;
+  transition: all 0.3s ease-in-out 0s;
 }
