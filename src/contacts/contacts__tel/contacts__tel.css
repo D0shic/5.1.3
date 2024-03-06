@@ -3,10 +3,10 @@
   font-family: 'TT Lakes Bold';
   text-decoration: none;
   color: #1b1c21;
-  transition: all 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 .contacts__tel:hover {
   color: #ff3e79;
-  transition: all 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
 }

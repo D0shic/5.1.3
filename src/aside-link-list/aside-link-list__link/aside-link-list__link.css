@@ -5,10 +5,6 @@
   color: #1b1c21;
 }
 
-/* .aside-link-list__link[active] {
-  color: #7e7e82;
-} */
-
 .aside-link-list__link[active]::before {
   content: '';
   display: block;
@@ -19,8 +15,10 @@
   position: absolute;
   left: -23px;
   top: -6px;
+  transition: color 0.1s ease-in-out 0s;
 }
 
 .aside-link-list__link:hover {
   color: #7e7e82;
+  transition: color 0.1s ease-in-out 0s;
 }

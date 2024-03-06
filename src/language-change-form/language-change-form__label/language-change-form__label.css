@@ -1,9 +1,32 @@
+.language-change-form__label::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -4.5px;
+  top: -5.7px;
+  z-index: -1;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out 0s;
+}
+
 .language-change-form__label[active] {
   color: #7e7e82;
-  transition: all 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
+}
+
+.language-change-form__label {
+  position: relative;
 }
 
 .language-change-form__label:hover {
-  color: #ff3e79;
-  transition: all 0.3s ease-in-out 0s;
+  color: white;
+  transition: color 0.3s ease-in-out 0s;
+}
+
+.language-change-form__label:hover::after {
+  content: '';
+  background-color: #ff3e79;
+  transition: background-color 0.3s ease-in-out 0s;
 }
