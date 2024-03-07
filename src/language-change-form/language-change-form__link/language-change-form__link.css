@@ -1,4 +1,4 @@
-.language-change-form__label::after {
+.language-change-form__link::after {
   content: '';
   width: 30px;
   height: 30px;
@@ -11,21 +11,24 @@
   transition: background-color 0.3s ease-in-out 0s;
 }
 
-.language-change-form__label[active] {
+.language-change-form__link[active] {
   color: #7e7e82;
   transition: color 0.3s ease-in-out 0s;
 }
 
-.language-change-form__label {
+.language-change-form__link {
   position: relative;
+  font-family: 'TT Lakes Medium';
+  text-decoration: none;
+  color: #1b1c21;
 }
 
-.language-change-form__label:hover {
+.language-change-form__link:hover {
   color: white;
   transition: color 0.3s ease-in-out 0s;
 }
 
-.language-change-form__label:hover::after {
+.language-change-form__link:hover::after {
   content: '';
   background-color: #ff3e79;
   transition: background-color 0.3s ease-in-out 0s;
