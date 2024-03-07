@@ -11,7 +11,7 @@
   overflow-y: scroll;
   z-index: 99;
   min-height: 788px;
-  max-height: 100vh;
+  height: 100vh;
   scrollbar-width: thin;
   scrollbar-color: #41f6d861 white;
   box-shadow: 16px 0px 52px 0px #0e185033;

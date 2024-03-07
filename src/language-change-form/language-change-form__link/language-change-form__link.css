@@ -21,6 +21,7 @@
   font-family: 'TT Lakes Medium';
   text-decoration: none;
   color: #1b1c21;
+  margin-right: 7px;
 }
 
 .language-change-form__link:hover {
