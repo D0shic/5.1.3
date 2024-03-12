@@ -28,6 +28,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'TT Lakes Light';
+  src: url('TTLakes-Light.eot');
+  src: url('TTLakes-Light.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/TTLakes-Light.woff') format('woff'),
+    url('../public/fonts/TTLakes-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }

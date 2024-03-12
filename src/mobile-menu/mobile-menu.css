@@ -1,7 +1,7 @@
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: 0px;
+  left: -320px;
   width: 320px;
   background-color: white;
   display: flex;
