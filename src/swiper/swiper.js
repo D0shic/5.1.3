@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-    const resizableSwiper = (breakpoint, swiperClass, swiperSettings, callback) => {
+    const resizableSwiper = (breakpoint, swiperClass, swiperSettings) => {
       let swiper;
   
       breakpoint = window.matchMedia(breakpoint);
@@ -8,9 +8,6 @@ window.addEventListener('DOMContentLoaded', () => {
       const enableSwiper = function(className, settings) {
         swiper = new Swiper(className, settings);
   
-        if (callback) {
-          callback(swiper);
-        }
       }
   
       const checker = function() {
@@ -31,8 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
       '.swiper',
       {
         loop: true,
-        // spaceBetween: 32,
-        slidesPerView: 1,
+        slidesPerView: 1.3,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

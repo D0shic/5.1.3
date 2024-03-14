@@ -7,7 +7,7 @@
   flex-wrap: nowrap;
 }
 
-@media screen and ( 1120px < width < 767px){
+@media screen and ( 1120px > width > 767px){
   .brands-carousel {
     flex-wrap: wrap;
     column-gap: 24px;
