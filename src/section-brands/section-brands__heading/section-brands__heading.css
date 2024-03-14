@@ -2,5 +2,11 @@
   text-transform: uppercase;
   color: #7e7e82;
   font-family: 'TT Lakes Light';
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+@media screen and (width > 767px) {
+  .section-brands__heading {
+    margin-bottom: 40px;
+  }
 }

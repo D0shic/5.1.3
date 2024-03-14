@@ -5,8 +5,8 @@ const openCloseCarousel = () => {
     clickCounter ++;
 
     let brandsCarousel = document.querySelector('.swiper-wrapper'); 
-    brandsCarousel.style.height = clickCounter % 2 ? '160px' : 'fit-content';
-    btnRN.innerText = clickCounter % 2 ? 'Показать все' : 'Скрыть';
+    brandsCarousel.style.height = clickCounter % 2 ? '155px' : 'fit-content';
+    btnRN.innerText = clickCounter % 2 ? 'Скрыть' : 'Показать все';
 }
 
 btnRN.addEventListener('click', openCloseCarousel);
