@@ -1,12 +1,12 @@
-let clickCounter = 0; 
+let clickCounter = 1;
 let btnRN = document.querySelector('.section-brands__btn-read-next');
 
 const openCloseCarousel = () => {
-    clickCounter ++;
+  clickCounter++;
 
-    let brandsCarousel = document.querySelector('.swiper-wrapper'); 
-    brandsCarousel.style.height = clickCounter % 2 ? '155px' : 'fit-content';
-    btnRN.innerText = clickCounter % 2 ? 'Скрыть' : 'Показать все';
-}
+  let brandsCarousel = document.querySelector('.swiper-wrapper');
+  brandsCarousel.style.height = clickCounter % 2 ? '155px' : 'fit-content';
+  btnRN.innerText = clickCounter % 2 ? 'Скрыть' : 'Показать все';
+};
 
 btnRN.addEventListener('click', openCloseCarousel);
