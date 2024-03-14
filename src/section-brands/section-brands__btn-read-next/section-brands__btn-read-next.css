@@ -7,3 +7,9 @@
   top: 5px;
   margin-right: 8px;
 }
+
+@media screen and (width < 768px) {
+  .section-brands__btn-read-next {
+    display: none;
+  }   
+}

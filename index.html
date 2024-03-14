@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services & Software</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../4.1.3/src/index.css" />
     <link rel="stylesheet" href="../4.1.3/src/header/header.css" />
     <link rel="stylesheet" href="../4.1.3/src/link/link.css" />
@@ -203,8 +207,12 @@
     />
     <link
       rel="stylesheet"
-      href="../4.1.3/src/section-brands/brands-carousel__link/brands-carousel__link.css"
+      href="../4.1.3/src/brands-carousel/brands-carousel__link/brands-carousel__link.css"
     />
+    <link rel="stylesheet" href="../4.1.3/src/swiper/swiper.css">
+    <link rel="stylesheet" href="../4.1.3/src/swiper/swiper__pagination/swiper__pagination.css">
+    <link rel="stylesheet" href="../4.1.3/src/swiper-pagination-bullet-active/swiper-pagination-bullet-active.css">
+    <link rel="stylesheet" href="../4.1.3/src/swiper-wrapper/swiper-wrapper.css">
   </head>
   <body>
     <header class="header header--hidden">
@@ -391,104 +399,109 @@
           />
         </div>
       </section>
-      <section class="section-brands">
+      <section class="section-brands swiper-container">
         <h2 class="section-brands__heading">
           Ремонт техники различных брендов
         </h2>
-        <ul class="brands-carousel">
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/Lenovo.svg"
-                alt="lenovo logo"
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/samsung.png"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/apple.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/viewSonic.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/bosch.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/hp.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/acer.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/sony.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/Lenovo.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/samsung.png"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-          <li class="brands-carousel__item">
-            <a href="" class="brands-carousel__link link"
-              ><img
-                src="../4.1.3/public/images/apple.svg"
-                alt=""
-                class="brands-carousel__logo"
-            /></a>
-          </li>
-        </ul>
+        <div class="swiper">
+          <ul class="brands-carousel swiper-wrapper">
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/Lenovo.svg"
+                  alt="lenovo logo"
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/samsung.png"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/apple.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/viewSonic.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/bosch.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/hp.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/acer.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/sony.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/Lenovo.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/samsung.png"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+            <li class="brands-carousel__item swiper-slide">
+              <a href="" class="brands-carousel__link link"
+                ><img
+                  src="../4.1.3/public/images/apple.svg"
+                  alt=""
+                  class="brands-carousel__logo"
+              /></a>
+            </li>
+          </ul> 
+          <div class="swiper-pagination swiper__pagination"></div>
+        </div>
         <button class="btn-read-next section-brands__btn-read-next">
           Показать все
         </button>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../4.1.3/src/swiper/swiper.js"></script>
   </body>
 </html>
