@@ -1,4 +1,4 @@
-let clickCounter = 0;
+let clickCounter = 1;
 let btnRN = document.querySelector('.section-brands__btn-read-next');
 
 const openCloseCarousel = () => {
