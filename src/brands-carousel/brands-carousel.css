@@ -3,19 +3,16 @@
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
-  column-gap: 16px;
 }
 
-@media screen and ( 1120px > width > 767px){
+@media screen and (1120px > width > 767px) {
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: calc((100vw - 672px) / 3);
-  }  
+  }
 }
 
-@media screen and (width > 1119px){
+@media screen and (width > 1119px) {
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: calc((100vw - 896px) / 4);
-  }  
+  }
 }
