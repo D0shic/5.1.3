@@ -29,6 +29,10 @@ window.addEventListener('DOMContentLoaded', () => {
       {
         loop: true,
         slidesPerView: 1.3,
+        autoplay: {
+          delay: 300,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

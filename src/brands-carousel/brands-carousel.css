@@ -2,21 +2,18 @@
   list-style-type: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 16px;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 @media screen and ( 1120px > width > 767px){
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: 24px;
   }  
 }
 
 @media screen and (width > 1119px){
   .brands-carousel {
-    column-gap: 32px;
     flex-wrap: wrap;
   }  
 }
