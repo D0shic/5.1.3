@@ -1,7 +1,11 @@
 .swiper-wrapper {
   min-height: 100px;
   height: fit-content;
-  transition: height 0.2s linear 0s;
+  /* transition: height 0.2s linear 0s; */
+  transition-property: height, transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0ms
 }
 
 @media screen and (width > 767px) {
