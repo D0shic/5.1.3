@@ -9,13 +9,13 @@
 @media screen and ( 1120px > width > 767px){
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: calc((100vw - 672) / 3);
+    column-gap: calc((100vw - 672px) / 3);
   }  
 }
 
 @media screen and (width > 1119px){
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: calc((100vw - 896) / 4);
+    column-gap: calc((100vw - 896px) / 4);
   }  
 }
