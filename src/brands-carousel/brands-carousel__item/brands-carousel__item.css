@@ -7,11 +7,4 @@
   border-radius: 6px;
   margin-bottom: 16px;
   padding: 16px;
-  margin-right: 16px;
-}
-
-@media screen and (width > 767px) {
-  .brands-carousel__item {
-    margin-right: auto;
-  }
 }
