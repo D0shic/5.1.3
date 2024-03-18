@@ -26,8 +26,8 @@ window.addEventListener("DOMContentLoaded", () => {
     loop: true,
     speed: 5000,
     autoplay: {
-      enabled: true,
-      delay: 1,
+      delay:  100,
+      disableOnInteraction: false,
     },
     pagination: {
       el: ".swiper-pagination",
