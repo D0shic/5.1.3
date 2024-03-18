@@ -27,10 +27,10 @@ window.addEventListener('DOMContentLoaded', () => {
       '(max-width: 767px)',
       '.swiper',
       {
-        loop: true,
+        speed: 100,
         slidesPerView: 1.3,
         autoplay: {
-          delay: 30,
+          delay: 300,
         },
         freeMode: true,
         pagination: {
