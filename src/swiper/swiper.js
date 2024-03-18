@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
     checker();
   };
 
-  resizableSwiper('(max-width: 600px)', '.swiper', {
+  resizableSwiper('(max-width: 767px)', '.swiper', {
     slidesPerView: '1.3',
     loop: true,
     speed: 5000,
