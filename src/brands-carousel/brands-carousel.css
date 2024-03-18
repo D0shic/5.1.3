@@ -3,7 +3,7 @@
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  column-gap: auto;
 }
 
 @media screen and ( 1120px > width > 767px){
