@@ -34,18 +34,4 @@ window.addEventListener('DOMContentLoaded', () => {
       clickable: true,
     },
   });
-
-  resizableSwiper('(max-width: 767px)', '.swiper', {
-    slidesPerView: '2.3',
-    loop: true,
-    speed: 5000,
-    autoplay: {
-      delay: 100,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  });
 });
