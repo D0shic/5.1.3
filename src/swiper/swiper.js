@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
   };
 
   resizableSwiper("(max-width: 767px)", ".swiper", {
-    slidesPerView: "auto",
+    slidesPerView: "1.3",
     loop: true,
     speed: 5000,
     autoplay: {
