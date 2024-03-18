@@ -3,17 +3,20 @@
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
-  column-gap: auto;
+  column-gap: 16px;
+  justify-content: space-between;
 }
 
 @media screen and ( 1120px > width > 767px){
   .brands-carousel {
     flex-wrap: wrap;
+    column-gap: calc((100vw - 672) / 3);
   }  
 }
 
 @media screen and (width > 1119px){
   .brands-carousel {
     flex-wrap: wrap;
+    column-gap: calc((100vw - 896) / 4);
   }  
 }
