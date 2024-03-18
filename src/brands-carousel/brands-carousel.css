@@ -9,7 +9,7 @@
 @media screen and (1120px > width > 767px) {
   .brands-carousel {
     flex-wrap: wrap;
-    column-gap: calc((100vw - 672px) / 3);
+    column-gap: calc((100vw - 720px) / 3);
   }
 }
 
