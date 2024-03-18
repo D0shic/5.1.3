@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
   const resizableSwiper = (breakpoint, swiperClass, swiperSettings) => {
     let swiper;
 
@@ -17,20 +17,34 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     };
 
-    breakpoint.addEventListener("change", checker);
+    breakpoint.addEventListener('change', checker);
     checker();
   };
 
-  resizableSwiper("(max-width: 767px)", ".swiper", {
-    slidesPerView: "1.3",
+  resizableSwiper('(max-width: 600px)', '.swiper', {
+    slidesPerView: '1.3',
     loop: true,
     speed: 5000,
     autoplay: {
-      delay:  100,
+      delay: 100,
       disableOnInteraction: false,
     },
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+
+  resizableSwiper('(max-width: 767px)', '.swiper', {
+    slidesPerView: '2.3',
+    loop: true,
+    speed: 5000,
+    autoplay: {
+      delay: 100,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
       clickable: true,
     },
   });
